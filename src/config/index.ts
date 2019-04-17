@@ -2,8 +2,10 @@
  * 线上环境
  * 为了方便测试，使用的是聚合数据免费接口
  * 网址：https://www.juhe.cn/
+ * https://ms-api.caibowen.net
  */
-export const ONLINEHOST = 'http://api.juheapi.com'
+// export const ONLINEHOST = 'http://api.juheapi.com'
+export const ONLINEHOST = 'https://ms-api.caibowen.net'
 
 /** 
  * 测试环境

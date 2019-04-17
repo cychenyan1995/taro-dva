@@ -1,0 +1,34 @@
+.good-list-container{
+    background-color: #fff;
+    .good-ul{
+        // padding-right
+        display: flex;
+        justify-content: space-between;
+        // 换行
+        flex-wrap: wrap;
+        .good-li{
+            padding-left: 20px;
+            box-sizing: border-box;
+            width: 50%;
+            .pos {
+                position: relative;
+                padding-bottom: 8px;
+                .good-image-container {
+                  image {
+                    height: 519px;
+                    width: auto;
+                  }
+                }
+              }
+            // .pos{
+            //     .good-image-container{
+            //         image{
+            //             height: 520px;
+            //             width: auto;
+            //         }
+            //     }
+            // }
+        }
+    }
+
+}

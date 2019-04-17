@@ -1,6 +1,7 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import PropTypes from 'prop-types';
 import { Swiper, SwiperItem, View, Image } from '@tarojs/components'
+import './index.scss'
 
 interface IMySwiperProps{
   banner: any[]
@@ -23,7 +24,7 @@ class MySwiper extends Component<IMySwiperProps, {}> {
     const { banner } = this.props
     return (
       <Swiper
-        className='test-h'
+        className='swiper'
         indicatorColor='#999'
         indicatorActiveColor='#333'
         circular

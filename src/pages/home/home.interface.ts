@@ -18,7 +18,8 @@ export interface HomeState {
   export interface HomeProps {
     dispatch?: any,
     data?: Array<DataInterface>,
-    banner: any[]
+    banner: any[],
+    products_list: any[]
   }
   
   export interface DataInterface {

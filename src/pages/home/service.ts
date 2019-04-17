@@ -7,3 +7,6 @@ export const getLists = (data) => {
 export const load = (data) => {
   return Api.load(data)
 }
+export const product = (data) => {
+  return Api.product(data)
+}
