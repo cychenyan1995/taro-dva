@@ -33,7 +33,10 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/home/home'
+      // 'pages/map/map',
+      'pages/home/home',
+      'pages/cart/cart',
+      'pages/user/user'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -41,32 +44,32 @@ class App extends Component {
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
     },
-    // tabBar: {
-    //   list: [
-    //     {
-    //       pagePath: 'pages/home/home',
-    //       text: '首页',
-    //       iconPath: './images/tab/home.png',
-    //       selectedIconPath: './images/tab/home-active.png',
-    //     },
-    //     {
-    //       pagePath: 'pages/cart/index',
-    //       text: '衣袋',
-    //       iconPath: './images/tab/cart.png',
-    //       selectedIconPath: './images/tab/cart-active.png',
-    //     },
-    //     {
-    //       pagePath: 'pages/user/index',
-    //       text: '我的',
-    //       iconPath: './images/tab/user.png',
-    //       selectedIconPath: './images/tab/user-active.png',
-    //     },
-    //   ],
-    //   color: '#333',
-    //   selectedColor: '#333',
-    //   backgroundColor: '#fff',
-    //   // borderStyle: '#ccc',
-    // },
+    tabBar: {
+      list: [
+        {
+          pagePath: 'pages/home/home',
+          text: '首页',
+          iconPath: './images/tab/home.png',
+          selectedIconPath: './images/tab/home-active.png',
+        },
+        {
+          pagePath: 'pages/cart/cart',
+          text: '衣袋',
+          iconPath: './images/tab/cart.png',
+          selectedIconPath: './images/tab/cart-active.png',
+        },
+        {
+          pagePath: 'pages/user/user',
+          text: '我的',
+          iconPath: './images/tab/user.png',
+          selectedIconPath: './images/tab/user-active.png',
+        },
+      ],
+      color: '#333',
+      selectedColor: '#333',
+      backgroundColor: '#fff',
+      // borderStyle: '#ccc',
+    },
   }
 
   componentDidMount () {}

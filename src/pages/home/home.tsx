@@ -20,6 +20,7 @@ class Home extends Component<HomeProps, HomeState> {
     super(props)
   }
 
+  // 生命周期函数
 
   componentDidMount = () => {
     const { dispatch } = this.props
@@ -32,6 +33,15 @@ class Home extends Component<HomeProps, HomeState> {
       payload: {}
     })
   }
+
+  onReachBottom = () => {
+
+  }
+
+  onPullDownRefresh = () => {
+    
+  }
+
 
   render() {
     const { banner, products_list } = this.props

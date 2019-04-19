@@ -16,18 +16,36 @@
                 .good-image-container {
                   image {
                     height: 519px;
-                    width: auto;
+                    width: 100%;
+                  }
+                }
+                .desc{
+                  display: flex;
+                  justify-content: flex-start;
+                  .desc-left,.desc-right,.desc-center{
+                    display: inline-block;
+                    font-size: 26px;
+                    text-align: center;
+                    margin-right: 10px;
+                    padding: 5px;
+                    vertical-align: middle;
+                  }
+                  .desc-center{
+                    background-color: rgb(32, 36, 35);
+                    color: #fff;
+                    font-size: 20px;
+                  }
+                  .desc-left{
+                    background-color: pink;
+                    font-weight: 400;
+                    color: #fff;
+                  }
+                  .desc-right{
+                    border: 1px solid lightgrey;
+                    color: gray;
                   }
                 }
               }
-            // .pos{
-            //     .good-image-container{
-            //         image{
-            //             height: 520px;
-            //             width: auto;
-            //         }
-            //     }
-            // }
         }
     }
 
