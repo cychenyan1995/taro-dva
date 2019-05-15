@@ -20,6 +20,7 @@ export interface HomeState {
     data?: Array<DataInterface>,
     banner: any[],
     products_list: any[]
+    page: 1
   }
   
   export interface DataInterface {

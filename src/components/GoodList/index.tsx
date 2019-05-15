@@ -15,6 +15,12 @@ class GoodList extends Component<IGoodListProps, {}>{
         productList: []
     }
 
+    toDetail = (e) => {
+        Taro.navigateTo({
+            url: `/pages/detail/index?id=${e.currentTarget.dataset.id}`
+        })
+    }
+
     render() {
         const { productList } = this.props
         return (
@@ -25,6 +31,7 @@ class GoodList extends Component<IGoodListProps, {}>{
                             <View key={index}
                                 className='good-li'
                                 data-id={item.id}
+                                onClick={this.toDetail}
                             >
                                 <View className='pos'>
                                     <View className='good-image-container'>
